@@ -1,0 +1,93 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+body {
+    background-color: black;
+    color: white;
+}
+
+/* Header img and title */
+#head {
+    max-width: 100%;
+    height: auto;
+}
+
+.header {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+#title {
+    position: absolute;
+    top: 77%;
+    left: 12%;
+    font-size: 8vw;
+    font-weight: 800;
+    color: black;
+    -webkit-text-stroke: 0.8px rgb(139, 180, 163);
+    font-family: 'Lobster Two', cursive;
+}
+
+/* Sections with Bootstrap5 */
+.container .col-md-7 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+    margin-top: 4rem;
+}
+
+.featurette-divider {
+    margin: 3rem 0;
+    /* Space out the Bootstrap <hr> more */
+}
+
+img {
+    border-radius: 10px;
+}
+
+/*Footer*/
+#logo {
+    font-family: 'Parisienne';
+    font-size: 2rem;
+    color: white;
+}
+
+#tribute-link {
+    color: red;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Media Queries */
+@media screen and (max-width : 1200px) {
+    .container .col-md-7 p {
+        margin-top: 2rem;
+    }
+
+}
+
+@media screen and (max-width : 992px) {
+    .container .col-md-7 p {
+        margin-top: 0;
+    }
+
+    .container .col-md-5 {
+        margin-top: 3.5rem;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .container .col-md-7 p {
+        margin-top: 3rem;
+    }
+}
+
+
+@media screen and (max-width : 360px) {
+    .lead {
+        font-size: 1rem;
+    }
+}
